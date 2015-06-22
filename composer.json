@@ -1,0 +1,22 @@
+{
+    "name": "dixonsatit/yii2-agency-theme",
+    "description": "Yii 2 Agency Theme Asset Bundle",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "satit seethaphon",
+            "email": "dixonsatit@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/fontawesome": "4.3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "dixonsatit\\agencyTheme\\": ""
+        }
+    }
+}
