@@ -6,7 +6,7 @@ $this->title = 'About';
 $this->params['breadcrumbs'][] = $this->title;
 Yii::$app->layout='page_header';
 
-$directoryAsset = Yii::$app->assetManager->getPublishedUrl('@agency/dist');
+$directoryAsset = Yii::$app->assetManager->getPublishedUrl('@dixonsatit/agencyTheme/dist');
 $this->registerJsFile($directoryAsset.'/js/cbpAnimatedHeader.min.js');
 ?>
 

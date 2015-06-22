@@ -3,13 +3,13 @@ use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
-use agency\assets\AgencyAsset;
+use dixonsatit\agencyTheme\assets\AgencyAsset;
 
 /* @var $this \yii\web\View */
 /* @var $content string */
 
 AgencyAsset::register($this);
-$directoryAsset = Yii::$app->assetManager->getPublishedUrl('@agency/dist');
+$directoryAsset = Yii::$app->assetManager->getPublishedUrl('@dixonsatit/agencyTheme/dist');
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
