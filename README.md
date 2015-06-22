@@ -1,3 +1,4 @@
+
 Agency Theme
 ============
 Yii 2  Agency Theme
@@ -28,4 +29,6 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \dixonsatit\agencyTheme\AutoloadExample::widget(); ?>```
+<?= \dixonsatit\agencyTheme\AutoloadExample::widget(); ?>
+```
+
