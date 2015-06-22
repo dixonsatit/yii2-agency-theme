@@ -86,4 +86,8 @@ Customization
         ],
 ```
 
+จากนั้นคุณสามารถปรับเปลี่ยน view ต่างๆ ได้ตามต้องการ ^^
+
+![](/dist/img/screencapture-yii2-agency-theme.png)
+
 
