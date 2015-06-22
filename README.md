@@ -42,7 +42,7 @@ Once the extension is installed, you can have a preview by reconfiguring the pat
 
 Customization
 -------------
-- create folder /themes/agency in root project
+- create folder /themes/agency you application
 - copy file from  `vendor/dixonsatit/yii2-agency-theme/views`  to /themes/agency/
 - edit config/main.php  to:
 
