@@ -2,7 +2,7 @@
 
     Yii::$app->layout='homepage';
 
-   $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@agency/dist');
+   $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@dixonsatit/agencyTheme/dist');
    ?>
    <!-- Header -->
     <header>

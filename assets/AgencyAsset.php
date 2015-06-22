@@ -29,6 +29,6 @@ class AgencyAsset extends AssetBundle
     public $depends = [
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',
-        'agency\assets\FontAwesomeAsset'
+        'dixonsatit\agencyTheme\assets\FontAwesomeAsset'
     ];
 }
