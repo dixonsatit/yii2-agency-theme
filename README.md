@@ -1,9 +1,7 @@
 
 Agency Theme
 ============
-Yii 2  Agency Theme base on [Agency - One Page Bootstrap Theme](http://startbootstrap.com/template-overviews/agency/)
-
-This package contains an Asset Bundle for Yii 2.0 Framework which registers the CSS files for the Agency - One Page Bootstrap Theme
+Yii 2  Agency Theme
 
 Installation
 ------------
@@ -56,10 +54,7 @@ Customization
         ],
 ```
 
-Agency Theme
-============
-เป็น theme ที่สร้างมาจาก [Agency - One Page Bootstrap Theme](http://startbootstrap.com/template-overviews/agency/) โดยใช้ [Asset Bundle for Yii 2.0 Framework](http://www.yiiframework.com/doc-2.0/guide-structure-assets.html)
-สามารถติดตังใช้งาน และปรับแต่ง layout ได้ตามต้องการ
+
 
 การใช้งาน
 ---------
