@@ -9,6 +9,7 @@ class AgencyAsset extends AssetBundle
     //public $baseUrl = '@web/themes/agecents';
     public $sourcePath = '@dixonsatit/agencyTheme/dist'; 
     public $css = [
+
         'css/agency.css',
         '//fonts.googleapis.com/css?family=Montserrat:400,700',
         '//fonts.googleapis.com/css?family=Kaushan+Script',
@@ -19,7 +20,7 @@ class AgencyAsset extends AssetBundle
     public $js = [
         '//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js',
         'js/jquery-scrollspy.js',
-        //'js/cbpAnimatedHeader.min.js',
+        'js/cbpAnimatedHeader.min.js',
         'js/classie.js',
         'js/contact_me.js',
         'js/jqBootstrapValidation.js',
@@ -29,6 +30,7 @@ class AgencyAsset extends AssetBundle
     public $depends = [
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',
+        'yii\bootstrap\BootstrapPluginAsset',
         'dixonsatit\agencyTheme\assets\FontAwesomeAsset'
     ];
 }
