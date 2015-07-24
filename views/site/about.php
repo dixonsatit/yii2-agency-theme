@@ -5,7 +5,10 @@ use yii\helpers\Html;
 $this->title = 'About';
 $this->params['breadcrumbs'][] = $this->title;
 Yii::$app->layout='page_header';
-
+echo Yii::$app->formatter->asDateTime(time(), 'short');
+echo Yii::$app->formatter->asDateTime(time(), 'medium');
+echo Yii::$app->formatter->asDateTime(time(), 'long');
+echo Yii::$app->formatter->asDateTime(time(), 'full');
 $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@dixonsatit/agencyTheme/dist');
 $this->registerJsFile($directoryAsset.'/js/cbpAnimatedHeader.min.js');
 ?>
@@ -13,7 +16,7 @@ $this->registerJsFile($directoryAsset.'/js/cbpAnimatedHeader.min.js');
 <header style="background-image:url(<?=$directoryAsset.'/img/header-bg2.jpg'?>);">
     <div class="container">
         <div class="intro-text">
-           
+
             <div class="intro-heading">About</div>
              <div class="intro-lead-in">Yii2 Learning</div>
         </div>
@@ -34,5 +37,3 @@ This is the About page. You may modify the following file to customize its conte
 
 </div>
 </section>
-
-

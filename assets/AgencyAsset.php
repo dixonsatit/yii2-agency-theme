@@ -7,7 +7,7 @@ class AgencyAsset extends AssetBundle
 {
     //public $basePath = '@app/themes/agecents';
     //public $baseUrl = '@web/themes/agecents';
-    public $sourcePath = '@dixonsatit/agencyTheme/dist'; 
+    public $sourcePath = '@dixonsatit/agencyTheme/dist';
     public $css = [
 
         'css/agency.css',
@@ -16,13 +16,13 @@ class AgencyAsset extends AssetBundle
         '//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic',
         '//fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700'
     ];
-    
+
     public $js = [
         '//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js',
         'js/jquery-scrollspy.js',
         'js/cbpAnimatedHeader.min.js',
         'js/classie.js',
-        'js/contact_me.js',
+        //'js/contact_me.js',
         'js/jqBootstrapValidation.js',
         'js/agency.js',
     ];
